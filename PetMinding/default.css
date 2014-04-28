@@ -1,0 +1,313 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	
+	margin: 0;	
+	padding: 0;	
+	border: 0;	
+	font-size: 100%;	
+	font: inherit;	
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	
+	display: block;
+}
+
+body {	
+	line-height: 1;
+}
+
+ol, ul {	
+	list-style: none;
+}
+
+blockquote, q {	
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,q:before, q:after {	
+	content: '';
+	content: none;
+}
+
+table {	
+	border-collapse: collapse;	
+	border-spacing: 0;
+}
+
+/* My own CSS */
+body {
+	font-family: "Verdana";
+	height: 100%;
+}
+
+.main {
+	min-height: 100%;
+	overflow: auto;
+	padding-bottom: 154px;
+}
+
+a {
+	text-decoration: none;
+}
+
+div.header {
+	background-color: #4E1A0C;
+	border-bottom: 4px solid rgba(0,174,239,1);
+	display: block;
+	height: 52px;
+	line-height: 52px;
+	min-width: 1200px;
+	position: fixed;
+	width: 100%;
+	margin: 0px;
+	padding: 0;
+	z-index: 1000;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+#logo {
+	border: 4px solid rgba(0,174,239,1);
+	float: left;
+	margin-top: 3px;
+	line-height: 0;
+}
+
+#name {
+	padding-left: 30px;
+	font-size: 27px;
+	float: left;
+}
+
+.header_copy a {
+	font-family: "Verdana";
+	color: #C7B299;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	float: right;
+	color: #C7B299;
+	/*
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s; */
+}
+
+.nav > ul > li > a {
+	color: #C7B299;
+	display: block;
+	line-height: 56px;
+	padding: 0 24px;
+}
+
+.blurb {
+	padding-top: 150px;
+	padding-bottom: 50px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 28px;
+	font-family: "Verdana";
+	line-height: 40px;
+}
+
+.services {
+	float: left;
+	width: 45%;
+	max-width: 500px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+}
+
+.main {
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 550px;
+}
+
+.pet {
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+	width: 275px;
+	height: 257px;
+	margin: auto;
+}
+
+img.circle {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	border-radius: 70px;
+	border: 10px solid rgba(199,178,153,0.6);
+}
+
+a p.label {
+	text-align: center;
+	margin-top: 20px;
+	color: #4E1A0C;
+	font-size: 20px;
+}
+
+.bigcircle {
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 500px;
+	z-index: 5;
+}
+
+#paula {
+	margin-left: 650px;
+}
+
+.about_paula {
+	margin-left: 170px;
+	max-width: 500px;
+	min-height: 400px;
+	max-height: 450px;
+	background-color: white;
+	position: absolute;
+	text-align: right;
+	margin-top: 20px;
+	padding-top: 65px;
+	padding-right: 20px;
+	margin-bottom: 20px;
+	z-index: 10;
+}
+
+.textblock {
+	max-width: 500px;
+	min-height: 400px;
+	max-height: 450px;
+	background-color: white;
+	position: absolute;
+	margin-left: 530px;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-top: 65px;
+	margin-bottom: 20px;
+	z-index: 10;
+}
+
+p.rightside {
+	padding-top: 20px;
+}
+
+.bigpicture {
+	float: right;
+
+}
+
+#contact_information {
+	float: left;
+	width: 45%;
+	max-width: 500px;
+	margin-left: 70px;
+}
+
+.contact_list > ul > li {
+	line-height: 30px;
+}
+
+#contact_form {
+	float: right;
+	width: 45%;
+	max-width: 500px;
+}
+
+#contact_form > p {
+	padding-bottom: 20px;
+}
+
+#contact_form input, #contact_form textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: "Verdana";
+	font-size: 20px;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #C7B299;
+}
+
+#contact_form textarea {
+	height: 90px;
+}
+
+#contact_form input.submit-button {
+	width: 100px;
+	float: right;
+	margin-right: 15px;
+}
+
+/*
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.4em;
+}
+*/
+.right_align {
+	float: left;
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 50px;
+	text-align: right;
+}
+
+.left_align {
+	float: left;
+	margin-top: 50px;
+	text-align: left;
+	padding-bottom: 50px;
+}
+
+.map {
+	display: block;
+	margin: auto;
+}
+
+.footer{
+	position: relative;
+	margin-top: -154px;
+	height: 150px;
+	width: 100%;
+	background-color: #4E1A0C;
+	border-top: 4px solid #00AEEF;
+	clear: both;
+}
+
+	/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;
+}
