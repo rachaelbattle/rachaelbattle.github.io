@@ -1,87 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Contact Us</title>
-		<link rel="stylesheet" type="text/css" href="default.css">
-		<link href="img/favicon.png" rel="shortcut icon" type="image/png">
-	</head>
-	<body>
-		<div class="header">
-			<div class="wrapper">
-				<div id="logo">
-					<a href="index.html">
-						<img src="img/logo_small.png" alt="PM's Pet Minding Logo">
-					</a>
-				</div>
-				<div class="header_copy">	
-					<div id="name" class="header_copy" >
-						<a href="index.html">PM's Pet Minding</a>
-					</div>
-					<div class="nav">
-						<ul>
-							<li><a id= "contact" href="contact.html">Contact Us</a></li>
-							<li><a id="about" href="about_us.html">About Us</a></li>
-							<li><a id="services" href="services.html">Services</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="blurb wrapper">
-			<h1> Get in touch</h1>
-			<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.</p>
-		</div>
-		<div class="wrapper main">
-			<div id="contact_information">
-				<h1>Contact Us</h1>
-				<p>It has roots in a piece of classical Latin literature from 45 BC, makingIt has roots in a piece of classical Latin 
-				</p>
-				<div class="right_align contact_list">
-					<ul>
-						<li>Phone</li>
-						<li> After-Hours Phone</li>
-						<li>email</li>
-						<li>address</li>
-					</ul>
-				</div>
-				<div class="left_align contact_list">
-					<ul>
-						<li>(02)99554455</li>
-						<li>0456 658 547</li>
-						<li>paula@pmspetminding.com.au</li>
-						<li>123 Some Street</li>
-						<li>Thattown</li>
-					</ul>
-				</div>
-				<img class="map" src="img/map_placeholder.gif" alt="Map">	
-			</div>
-			<div id="contact_form">
-				<h1>Ask us Anything</h1>
-				<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.
-				</p>
-				<form method="post" action="contactengine.php">
-					<label for="Name">Name:</label>
-					<input type="text" name="Name" id="Name" />
-					
-					<label for="Pets_name">Pet's Name:</label>
-					<input type="text" name="Pets_name" id="Pets_name" />
-		
-					<label for="Email">Email:</label>
-					<input type="text" name="Email" id="Email" />
-					
-					<label for="Message">Message:</label><br />
-					<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+---
+layout: default
+title: Contact Us
+---
 
-					<input type="submit" name="submit" value="Submit" class="submit-button" />
-				</form>
-			</div>
+<div class="blurb wrapper">
+	<h1> Get in touch</h1>
+	<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.</p>
+</div>
+<div class="wrapper main">
+	<div id="contact_information">
+		<h1>Contact Us</h1>
+		<p>It has roots in a piece of classical Latin literature from 45 BC, makingIt has roots in a piece of classical Latin 
+		</p>
+		<div class="right_align contact_list">
+			<ul>
+				<li>Phone</li>
+				<li> After-Hours Phone</li>
+				<li>email</li>
+				<li>address</li>
+			</ul>
 		</div>
-		
-		<div class="footer">
-			<div class="wrapper">
-				<p> here be things</p>
-			</div>
+		<div class="left_align contact_list">
+			<ul>
+				<li>(02)99554455</li>
+				<li>0456 658 547</li>
+				<li>paula@pmspetminding.com.au</li>
+				<li>123 Some Street</li>
+				<li>Thattown</li>
+			</ul>
 		</div>
-	</body>
-</html>
+		<img class="map" src="img/map_placeholder.gif" alt="Map">	
+	</div>
+	<div id="contact_form">
+		<h1>Ask us Anything</h1>
+		<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia.
+		</p>
+		<form method="post" action="contactengine.php">
+			<label for="Name">Name:</label>
+			<input type="text" name="Name" id="Name" />
+			
+			<label for="Pets_name">Pet's Name:</label>
+			<input type="text" name="Pets_name" id="Pets_name" />
+
+			<label for="Email">Email:</label>
+			<input type="text" name="Email" id="Email" />
+			
+			<label for="Message">Message:</label><br />
+			<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+
+			<input type="submit" name="submit" value="Submit" class="submit-button" />
+		</form>
+	</div>
+</div>
