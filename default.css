@@ -119,15 +119,11 @@ div.header {
 	color: #4E1A0C;
 }
 
-.nav > ul > li > ul > li.dropdown {
+.dropdown {
 	position:absolute;
-    z-index:100;
+    z-index:1000;
     height: 0;
     overflow: hidden;
-}
-
- .nav > ul > li:hover ul ul, .nav > ul > li > a:hover ul ul{
-    height:0;
 }
 
 .blurb {
