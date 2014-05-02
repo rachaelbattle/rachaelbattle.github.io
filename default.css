@@ -126,6 +126,10 @@ div.header {
     overflow: hidden;
 }
 
+ .nav > ul > li:hover ul ul, .nav > ul > li > a:hover ul ul{
+    height:0;
+}
+
 .blurb {
 	padding-top: 150px;
 	padding-bottom: 50px;
