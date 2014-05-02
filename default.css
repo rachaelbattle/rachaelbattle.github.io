@@ -119,6 +119,17 @@ div.header {
 	color: #4E1A0C;
 }
 
+.nav > ul > ul > li.dropdown {
+	background-color:#e6056f; /* remove. this is for illustration purposes only */
+    width:340px; /* you need a width to accommodate tertiary menus */
+    
+    position:absolute;
+    z-index:100;
+    
+    height: 0;
+    overflow: hidden;
+}
+
 .blurb {
 	padding-top: 150px;
 	padding-bottom: 50px;
