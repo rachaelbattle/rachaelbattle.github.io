@@ -99,12 +99,6 @@ div.header {
 	list-style-type: none;
 	float: right;
 	color: #C7B299;
-	/*
-	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	-ms-transition: all 0.2s;
-	-o-transition: all 0.2s;
-	transition: all 0.2s; */
 }
 
 .nav > ul > li > a {
@@ -118,14 +112,14 @@ div.header {
 	background-color: #00AEEF;
 	color: #4E1A0C;
 }
-/*
-.dropdown {
-	position:absolute;
-    z-index:100;
+
+ul.dropdown > li {
+	display: block;
+	display: none;
     height: 0;
     overflow: hidden;
 }
-*/
+
 
 .blurb {
 	padding-top: 150px;
