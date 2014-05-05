@@ -114,11 +114,21 @@ div.header {
 	padding: 0 24px;
 }
 
+<<<<<<< HEAD
 .nav > ul > li > a:hover {
 	background-color: #00AEEF;
 	color: #4E1A0C;
 }
-
+/*
+.dropdown {
+	position:absolute;
+    z-index:100;
+    height: 0;
+    overflow: hidden;
+}
+*/
+=======
+>>>>>>> parent of a7bfc4a... insert nav menu
 .blurb {
 	padding-top: 150px;
 	padding-bottom: 50px;
