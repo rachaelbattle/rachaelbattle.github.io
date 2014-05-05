@@ -114,13 +114,12 @@ div.header {
 }
 
 ul.dropdown > li {
-	display: block;
 	display: none;
     height: 0;
     overflow: hidden;
 }
 
-.nav > ul >li:hover >ul.dropdown{
+ul.top-menu li:hover ul.dropdown{
 	display: block;
 }
 
