@@ -120,6 +120,9 @@ ul.dropdown > li {
     overflow: hidden;
 }
 
+.nav > ul >li:hover >ul.dropdown{
+	display: block;
+}
 
 .blurb {
 	padding-top: 150px;
